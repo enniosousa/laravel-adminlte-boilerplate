@@ -140,7 +140,7 @@ return [
 
         'resources' => false,
 
-        'excluded_fields' => ['id', 'created_at', 'updated_at', 'deleted_at'], // Array of columns that doesn't required while creating module
+        'excluded_fields' => ['id', 'created_at', 'updated_at', 'deleted_at', 'remember_token', 'email_verified_at'], // Array of columns that doesn't required while creating module
     ],
 
     /*

@@ -7803,12 +7803,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/enniosousa/adminlte-templates.git",
-                "reference": "98e1da6a52a232db3bc14c6d1818c47b79bf16f5"
+                "reference": "76e831412570e05a5535bd616b11a9dd25e33d99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/enniosousa/adminlte-templates/zipball/98e1da6a52a232db3bc14c6d1818c47b79bf16f5",
-                "reference": "98e1da6a52a232db3bc14c6d1818c47b79bf16f5",
+                "url": "https://api.github.com/repos/enniosousa/adminlte-templates/zipball/76e831412570e05a5535bd616b11a9dd25e33d99",
+                "reference": "76e831412570e05a5535bd616b11a9dd25e33d99",
                 "shasum": ""
             },
             "require": {
@@ -7856,7 +7856,7 @@
                     "url": "https://opencollective.com/infyomlabs"
                 }
             ],
-            "time": "2021-08-31T15:17:14+00:00"
+            "time": "2021-10-30T20:44:44+00:00"
         },
         {
             "name": "infyomlabs/laravel-generator",

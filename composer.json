@@ -2,15 +2,38 @@
     "name": "laravel/laravel",
     "type": "project",
     "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:enniosousa/adminlte-templates.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:enniosousa/laravel-generator.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:InfyOmLabs/swaggervel.git"
+        }
+    ],
     "require": {
         "php": "^7.3|^8.0",
+        "doctrine/dbal": "^3.1",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+        "laracasts/flash": "^3.2",
         "laravel/framework": "^8.65",
         "laravel/sanctum": "^2.11",
-        "laravel/tinker": "^2.5"
+        "laravel/tinker": "^2.5",
+        "laravel/ui": "^3.3",
+        "laravelcollective/html": "^6.2",
+        "laravellegends/pt-br-validator": "^8.0",
+        "yajra/laravel-datatables": "^1.5"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -18,7 +41,11 @@
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^5.10",
-        "phpunit/phpunit": "^9.5.10"
+        "phpunit/phpunit": "^9.5.10",
+        "appointer/swaggervel": "dev-master",
+        "infyomlabs/swagger-generator": "dev-master",
+        "infyomlabs/laravel-generator": "dev-develop",
+        "infyomlabs/adminlte-templates": "dev-develop"
     },
     "autoload": {
         "psr-4": {

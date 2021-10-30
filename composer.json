@@ -33,6 +33,7 @@
         "laravel/ui": "^3.3",
         "laravelcollective/html": "^6.2",
         "laravellegends/pt-br-validator": "^8.0",
+        "proengsoft/laravel-jsvalidation": "^4.5",
         "yajra/laravel-datatables": "^1.5"
     },
     "require-dev": {
